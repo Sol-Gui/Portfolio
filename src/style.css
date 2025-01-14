@@ -13,7 +13,7 @@ header {
     align-items: center;
     height: 10%;
     background-color: #19222C;
-    margin-bottom: 2em;
+    margin-bottom: 6.5em;
 }
 
 
@@ -31,8 +31,12 @@ header {
 #grettings, #study-area {
     padding: 0;
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: normal;
+}
+
+#study-area {
+    padding-bottom: 0.3em;
 }
 
 #grettings a {
@@ -47,7 +51,7 @@ header {
     display: flex;
     width: 25%;
     height: 25%;
-    padding-top: 6.5em;
+    padding-top: 1em;
     justify-content: flex-end;
     padding-right: 6.5em;
 }
@@ -56,30 +60,31 @@ header {
     justify-content: flex-end;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 
 #about-me-summary {
-    max-width: 33em;
+    max-width: 24em;
+    font-size: 1.8em;
+    font-weight: normal;
+    padding-bottom: 2em;
 }
 
 #stack-tags {
     display: grid;
-    gap: 1.3em;
+    gap: 1em;
     grid-template-columns: repeat(4, auto);
     justify-content: left;
     align-items: center;
     padding-bottom: 1em;
 }
 
+
 .stack {
-    min-width: auto;
-    min-height: auto;
-    background-color: #5E00FF;
-    color: #FFFFFF;
-    width: 8em;
+    width: 10em;
     height: 2em;
+    background-color: #5E00FF;
     border-radius: 2em;
     display: flex;
     justify-content: center;
@@ -90,19 +95,20 @@ header {
 
 .stack:hover {
     background-color: #7220FF;
-    transform: scale(1.15);
+    transform: scale(1.1);
 }  
 
 .social-icons {
     display: flex;
-    gap: 20px;
-    justify-content: left;
+    gap: 2.3em;
+    padding-top: 2em;
+    justify-content: center;
     align-items: center;
 }
   
 .icon {
-    width: 55px;
-    height: 55px;
+    width: 3.3em;
+    height: 3.3em;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -113,8 +119,8 @@ header {
 }
   
 .icon img {
-    width: 40px;
-    height: 40px;
+    width: 2.5em;
+    height: 2.5em;
 }
   
 .icon:hover {
@@ -127,15 +133,8 @@ header {
         height: 20%;
     }
 
-    .stack {
-        width: 14em;
-        height: 2.5em;
-        font-size: 1em
-    }
-
-    #about-me-summary {
-        max-width: 33em;
-        font-size: 2em;
+    .stack p {
+        font-size: 1.3em;
     }
 
     h1 {
@@ -143,7 +142,7 @@ header {
     }
 
     #grettings, #study-area {
-        font-size: 5em;
+        font-size: 4.5em;
     }
 }
 
@@ -167,6 +166,10 @@ header {
 
     .portfolio-summary {
         max-width: 40%;
+    }
+
+    #about-me-summary {
+        width: 20em;        
     }
 
     #grettings, #study-area {
