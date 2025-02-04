@@ -127,6 +127,48 @@ header {
     transform: scale(1.25);
 }
 
+#about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#about-me-profile {
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    background-color: #19222C;
+    height: 20em;
+}
+
+#basic-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: #D9D9D9;
+    border-radius: 2em;
+    width: 30%;
+    height: 80%;
+    margin-left: 2.5%;
+}
+
+#basic-info-container img {
+    width: 4em;
+    height: 4em;
+}
+
+#basic-info-container h1 {
+    font-size: 1.5em;
+}
+
 @media (min-width: 1580px) {
     #main-image-container {
         width: 20%;
