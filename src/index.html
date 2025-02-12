@@ -10,16 +10,17 @@
 <body>
     <header>
         <h1>LOGO</h1>
-        <ul>
-            <li>sobre mim</li>
-            <li>projetos</li>
-            <li>contate-me</li>
-        </ul>
-    
+        <nav>
+            <ul>
+                <li>sobre mim</li>
+                <li>projetos</li>
+                <li>contate-me</li>
+            </ul>
+        </nav>
     </header>
-    
-    <div class="profile-container">
-        <div class="portfolio-summary">
+
+    <main class="profile-container">
+        <section class="portfolio-summary">
             <h1 id="grettings">Hi, I'm <a> Guilherme <br> Rodrigues </a></h1>
             <h1 id="study-area">WEB <br><a> DEVELOPER </a> </h1>
             <h2 id="about-me-summary">I’m a Junior Web Developer and B2 english speaker. 
@@ -56,14 +57,14 @@
                     </div>
                 </a>
             </div>
-        </div>
+        </section>
 
         <div id="main-image-container">
-            <img id="main-image" src="assets/imgs/me.png" alt="My profissional photo">
-        </div>
-    </div>
+            <img id="main-image" src="assets/imgs/me.png" alt="My professional photo">
+        </div>        
+    </main>
 
-    <div id="about-me-container">
+    <section id="about-me-container">
         <div id="about-me-profile">
             <div id="basic-info-container">
                 <img src="assets/imgs/code.png" alt="Simple code icon">
@@ -71,10 +72,32 @@
                 <h1>Jr. Web dev</h1>
             </div>
             <div id="advanced-info-container">
-                Hello!
+                <h1>Hello!</h1>
+                <h3>I’m currently a student at the Federal Institute of São Paulo, Jacareí. My journey with programming 
+                began when I was 11 years old, experimenting with Python, chatbots and DEFI. I returned to programming three 
+                years later after being accepted into my current school. <br><br>
+
+                Today, I’m particularly interested in mathematics and blockchain technology. I have experience working 
+                with smart contracts and enjoy finding optimal solutions to complex problems. I focus on writing efficient,
+                high-quality code by leveraging low-level languages and mathematical approaches to deliver the 
+                best results in my projects.</h3>
             </div>
         </div>
-    </div>
+    </section>
 
+    <section id="projects-container">
+        <div id="projects-title">
+            <h1>Projects</h1>
+        </div>
+        <div id="projects-grid">
+            <div class="project">LUNAWATCH</div>
+            <div class="project">LUNAWALLET</div>
+        </div>
+    </section>
+
+    <section id="connect-container">
+        <h1>NEED A <a>DEVELOPER</a>?</h1>
+        <a href="#" id="connect-message">Let's connect <span id="arrow">→</span></a>
+    </section>
 </body>
 </html>
