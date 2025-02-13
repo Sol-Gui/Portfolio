@@ -146,6 +146,7 @@ header {
     padding-right: 2em;
     background-color: #19222C;
     height: 40vh;
+    border: 0.05em solid #383535;
 }
 
 #basic-info-container {
@@ -190,11 +191,62 @@ header {
     font-weight: normal;
 }
 
+#projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#projects-profile {
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+}
+
+#projects-title {
+    height: 2.8em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #E57373;
+    background-color: #19222C;
+    border-radius: 0.5em;
+    border: 0.05em solid #383535;
+}
+
+#projects-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 3em;
+}
+
+.project {
+    margin-left: 7.6vw;
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: 5em;
+    background-color: #00B2FF;
+}
+
 #connect-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5em;
 }
 
 
@@ -244,10 +296,6 @@ header {
 
     .stack p {
         font-size: 1.3em;
-    }
-
-    h1 {
-        font-size: 3.5em;
     }
 
     #grettings, #study-area {
